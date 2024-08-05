@@ -297,8 +297,8 @@ private DefaultTableColumnModel model;
     
 
    private void limpiarTabla() {
-    DefaultTableModel model = (DefaultTableModel) Tabla_Busqueda.getModel(); // Usa 'getModel' en lugar de 'getmodel'
-    model.setRowCount(0); // Elimina todas las filas de la tabla
+        DefaultTableModel model = (DefaultTableModel) Tabla_Busqueda.getModel(); // Usa 'getModel' en lugar de 'getmodel'
+        model.setRowCount(0); // Elimina todas las filas de la tabla
 }
     
 private void limpiarCampoBuscar() {
